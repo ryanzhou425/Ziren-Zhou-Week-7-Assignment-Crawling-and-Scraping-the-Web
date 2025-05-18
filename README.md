@@ -14,8 +14,10 @@ The core features of this project include:
 # How to Run
 Use the following command to run the program: 
 - go run main.go
+
 If everything works correctly, the terminal will display: 
 - Scraping completed in xxx seconds
+
 Output generated: 
 - web_scraped.jl
 
@@ -24,6 +26,7 @@ Output generated:
 # How to Test
 Run the following command to execute the unit tests: 
 - go test
+
 If the test runs successfully, it generates the file: 
 - test.jl
 
@@ -33,6 +36,7 @@ If the test runs successfully, it generates the file:
 The performance comparison was conducted using the Python code from [WebFocusedCrawlWorkV001](WebFocusedCralWorkV001) on the same set of Wikipedia pages. Below are the results:
 - Scrapy: 2.42 seconds 
 - Go Colly: 0.64 seconds
+
 The results revealed significant differences between Python Scrapy and Go Colly. Go is nearly 4 times faster than Python. This improvement is primarily due to Go's advantages in concurrency and memory management, indicating that Go Colly is a superior choice for handling large-scale web scraping tasks.
 
 ---
